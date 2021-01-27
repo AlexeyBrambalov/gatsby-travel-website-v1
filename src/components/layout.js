@@ -3,7 +3,7 @@ import React from "react"
 
 import "./layout.css"
 import Navbar from "./Navbar"
-import Footer from "./Footer"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -19,8 +19,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-        <main>{children}</main>   
-      <Footer />   
+      <main>{children}</main>
+      <Footer />
     </>
   )
 }
